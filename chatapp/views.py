@@ -58,7 +58,7 @@ def ProcessData(data):
     except IndexError:
         Jdata['Areas'][area][dept][doc]['Availbale slots'].remove(data.lower())
         #print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>     "+ str(Jdata['Areas'][area][dept][doc]['Availbale slots']))
-        with open(r'D:\Projects\MCA SEM 1 Mini-Project\Project Files\medbot_v1\ScheduleingData.json', 'w') as f:
+        with open(r'D:\Projects\MCA-Mini-Project-A\Project Files\medbot_v1\ScheduleingData_new.json', 'w') as f:
             json.dump(Jdata, f)
 
         Receipt1=Receipt
@@ -73,7 +73,7 @@ Jdata=dict()
 def show ( request) :
     global Quetions, Jdata, Receipt, indu
     indu=0
-    with open(r'D:\Projects\MCA SEM 1 Mini-Project\Project Files\medbot_v1\ScheduleingData.json', 'r') as jsonfile:
+    with open(r'D:\Projects\MCA-Mini-Project-A\Project Files\medbot_v1\ScheduleingData_new.json', 'r') as jsonfile:
         Jdata = json.load(jsonfile)
         Quetions = Jdata['Qset']
         Receipt=[]
