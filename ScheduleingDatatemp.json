@@ -9,7 +9,7 @@
         " These are available slots choose one "
     ],
     "Areas": {
-        "pimpri": {
+        "dadar": {
             "cardiology": {
                 "Dr. Valmik": {
                     "Availbale slots": [
@@ -547,7 +547,7 @@
                 }
             }
         },
-        "chinchwad": {
+        "bandra": {
             "Medicine & Intensive Care": {
                 "Dr. Valmik": {
                     "Availbale slots": [
@@ -1085,7 +1085,7 @@
                 }
             }
         },
-        "katraj": {
+        "kurla": {
             "Medicine & Intensive Care": {
                 "Dr. Valmik": {
                     "Availbale slots": [
@@ -1623,7 +1623,7 @@
                 }
             }
         },
-        "hadpsar": {
+        "thane": {
             "Medicine & Intensive Care": {
                 "Dr. Valmik": {
                     "Availbale slots": [
@@ -2161,7 +2161,7 @@
                 }
             }
         },
-        "nigdi": {
+        "churchgate": {
             "Medicine & Intensive Care": {
                 "Dr. Valmik": {
                     "Availbale slots": [
@@ -2699,7 +2699,7 @@
                 }
             }
         },
-        "shivaji nagar": {
+        "csmt": {
             "Medicine & Intensive Care": {
                 "Dr. Valmik": {
                     "Availbale slots": [
